@@ -12,10 +12,10 @@
 <body>
 
   <div class="masthead">
-    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+    <header role="banner" class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
-    </div>
-    <div class="nav">
+    </header>
+    <div class="nav" id="#nav" tabindex="0" role="navigation">
       <div class="wrapper gutter-1-2">
         <ol class="mega list-group-inline push-0">
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
@@ -27,6 +27,7 @@
       </div>
     </div>
   </div>
+<main role="main">
 
   <div>
     <div class="about push" id="about">
@@ -126,7 +127,7 @@
         </ol>
       </div>
     </div>
-    <div class="contact pad-t pad-b">
+    <div class="contact pad-t pad-b" role="search">
       <div class="wrapper">
         <h1 class="push-0 color-brand-dark gutter-1-2">Contact</h1>
         <p class="mega max-length not-centered gutter-1-2">We want… a shrubbery!</p>
@@ -155,12 +156,12 @@
         </form>
       </div>
     </div>
-
-  <div class="footer pad-t-1-2 pad-b-1-2">
+</main>
+  <footer class="footer pad-t-1-2 pad-b-1-2" role="contentinfo">
     <div class="wrapper gutter-1-2">
       <small class="push-0 micro">Some quotes © <i>Monty Python and the Holy Grail</i>, 1975.</small>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>
