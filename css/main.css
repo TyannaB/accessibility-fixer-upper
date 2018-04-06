@@ -11,7 +11,7 @@ html {
 }
 
 a {
-  color: #568c36;
+  color: #113c00;
 }
 
 a:hover {
@@ -83,8 +83,8 @@ td {
   color: #fff;
 }
 
-a:focus {
-  outline: 3px solid #000;
+.nav a:focus {
+  outline: 3px solid #fff;
 }
 
 @media only screen and (min-width: 35em) {
